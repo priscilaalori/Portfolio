@@ -1,5 +1,5 @@
 body{
-	color:#5d5586;
+	color:#504c4c;
 }
 header{
 	height: 75px;
@@ -52,7 +52,7 @@ nav ul li a {
 	
 }
 .splash{
-	background: linear-gradient(135deg, #6c757d 0%, #adb5bd 50%, #f8f9fa 100%);
+	background: linear-gradient(135deg, #938d8d 0%, #b0a9a9 50%, #d1cccc 100%);
 	width: 100%;
 	height: 60vh;
 	margin-top: 75px;
@@ -91,12 +91,13 @@ nav ul li a {
 }
 
 .sobre-mi-texto h1{
-	color: #2c3e50;
+	color: #504c4c;
 	font-size: 32px;
 	font-weight: bold;
 	margin-bottom: 20px;
 	text-align: left;
 }
+
 
 .sobre-mi-texto p{
 	color: #495057;
@@ -171,27 +172,25 @@ nav ul li a {
 
 }
 /*FONDO DEBAJO DEL CARRUSEL*/
-#letritas {
-	background: #938d8d;
-}
 .pintadito{
-	background: #ff0000;
-	padding: 2px;
+	background: #938d8d;
+	padding: 3px;
 	font-size: 30px;
 	color: white;
 
 }
 .frases i{
-	font-size: 80px;
+	font-size: 100px;
 
 }
 .frases h2{
 	padding: 70px;
 }
 
+
 /* Estilos para las tarjetas de proyectos */
 .trabajo-card {
-	background: white;
+	background: #b0a9a9;
 	border-radius: 15px;
 	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 	margin: 20px auto;
@@ -200,15 +199,15 @@ nav ul li a {
 }
 
 .card-header {
-	background: #f8f9fa;
+	background: #d1cccc;
 	padding: 15px 20px;
 	text-align: right;
-	border-bottom: 1px solid #e9ecef;
+	border-bottom: 1px solid #d1cccc;
 }
 
 .institution {
 	font-weight: bold;
-	color: #495057;
+	color: #2f2c2c;
 	font-size: 14px;
 }
 
@@ -218,20 +217,20 @@ nav ul li a {
 }
 
 .logo-section {
-	flex: 0 0 200px;
-	margin-right: 20px;
+	flex: 0 0 280px;
+	margin-right: 30px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
 .company-logo {
-	width: 120px;
-	height: 120px;
+	width: 200px;
+	height: 200px;
 	object-fit: contain;
-	border-radius: 10px;
+	border-radius: 15px;
 	background: #f8f9fa;
-	padding: 10px;
+	padding: 20px;
 }
 
 .job-info {
@@ -241,7 +240,7 @@ nav ul li a {
 .job-info h4 {
 	font-size: 20px;
 	font-weight: bold;
-	color: #212529;
+	color: #2f2c2c;
 	margin-bottom: 15px;
 }
 
@@ -252,8 +251,49 @@ nav ul li a {
 	font-size: 14px;
 }
 
-.dates {
-	font-weight: bold;
-	color: #6c757d;
-	font-size: 14px;
+.socials {
+  list-style: none;
+  display: flex; 
+  justify-content: center; 
+  gap: 30px; 
+  padding: 0;
+  margin: 0;
+}
+
+
+.socials li {
+  display: inline-block;
+}
+
+/* Estilos de los íconos */
+.socials a {
+ display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #ffffff; 
+  transition: all 0.2s ease;
+text-decoration: none;
+}
+
+
+.socials a .fa-linkedin-square {
+  color: #0e76a8; 
+}
+
+.socials a .fa-github {
+  color: #333; 
+}
+
+.socials a .fa-whatsapp {
+  color: #25d366; 
+}
+
+/* Efecto hover */
+.socials a:hover {
+  background: #ffffff;;  
+  transform: scale(1.2);
+  color: #ffffff;;         
 }
