@@ -187,17 +187,6 @@ nav ul li a {
 	padding: 70px;
 }
 
-
-/* Estilos para las tarjetas de proyectos */
-.trabajo-card {
-	background: #b0a9a9;
-	border-radius: 15px;
-	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-	margin: 20px auto;
-	max-width: 600px;
-	overflow: hidden;
-}
-
 .card-header {
 	background: #d1cccc;
 	padding: 15px 20px;
@@ -216,21 +205,33 @@ nav ul li a {
 	padding: 20px;
 }
 
+.trabajo-card {
+    background: #b0a9a9;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    max-width: 900px;   
+    overflow: hidden;
+}
+
 .logo-section {
-	flex: 0 0 280px;
-	margin-right: 30px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+    flex: 0 0 400px;    
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;   
 }
 
 .company-logo {
-	width: 200px;
-	height: 200px;
-	object-fit: contain;
-	border-radius: 15px;
-	background: #f8f9fa;
-	padding: 20px;
+    max-width: 100%;    
+    max-height: 350px;   
+    height: auto;        
+    width: auto;        
+    object-fit: contain; 
+    border-radius: 15px;
+    background: none;
+    padding: 0;
 }
 
 .job-info {
